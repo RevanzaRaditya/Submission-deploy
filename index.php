@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="">
     <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display:block;
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header h1{
+    background-color: bisque;
+    padding: 5px;
+}
+
+header div{
+    padding: 10px;
+    height: 40vh;
+    background-color: rgb(58, 54, 54);
+}
+.profil{
+    background-image: url('https://storage.googleapis.com/web-profile1/profile.JPG');
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+    </style>
 </head>
 <body>
     <header>
